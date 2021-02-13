@@ -1,0 +1,191 @@
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+header{
+	background-image: url('../images/Group 72.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	padding-bottom: 120px;
+}
+.div-0{
+	max-width: 1089px;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+ul{
+	display: flex;
+	justify-content: space-between;
+	width: 500px;
+}
+nav a{
+	font-size: 14px;
+	color: white;
+	font-family: 'Poppins bold';
+}
+li a{
+	font-family: 'Poppins semibold';
+	font-size: 12px;
+	color: white;
+}
+h4{
+	color: white;
+	font-size: 42px;
+	font-family: 'Poppins extrabold';
+	margin-top: 96px;
+}
+.home{
+	color: #5863F8;
+}
+.img0{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+/*section 1*/
+.s1{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1089px;
+	width: 80%;
+	margin: 0 auto;
+	flex-wrap: wrap;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	align-items: center;
+}
+.div-1{
+	max-width: 444px;
+	width: 40%;
+}
+.div-1 p, .big-div p{
+	font-size: 14px;
+	color: #5863F8;
+	font-family: 'Poppins bold';
+}
+.div-1 h3{
+	color: black;
+	font-size: 42px;
+	font-family: 'Poppins extrabold';
+	max-width: 374px;
+	width: 90%;
+	margin-top: 6px;
+	margin-bottom: 10px;
+}
+.div-1 h5{
+	color: black;
+	font-size: 16px;
+	font-family: 'Poppins medium';
+	margin-bottom: 10px;
+}
+.div-1 h6{
+	color: black;
+	font-size: 14px;
+	font-family: 'Poppins regular';
+	margin-bottom: 20px;
+}
+.bluebox{
+	background-color: #5863F8;
+	width: 45%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.bluebox a{
+	font-size: 14px;
+	color: white;
+	font-family: 'Poppins regular';
+}
+.div-2{
+	max-width: 536px;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.div-2 img:nth-child(1){
+	width: 46%;
+	margin-bottom: 16px;
+}
+.div-2 img:nth-child(2){
+	width: 46%;
+	margin-bottom: 16px;
+}
+.div-2 img:nth-child(3){
+	width: 100%;
+}
+/*section 2*/
+.s2{
+	background-image: url('../images/Group 131.jpg');
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-size: cover;
+}
+.big-div{
+	max-width: 1089px;
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+.big-div h3{
+	color: white;
+	font-size: 42px;
+	font-family: 'Poppins extrabold';
+	max-width: 374px;
+	width: 90%;
+	margin-top: 6px;
+	margin-bottom: 34px;
+}
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.smallbox{
+	width: 260px;
+	padding-top: 27px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+.round{
+	width: 59px;
+	height: 59px;
+    background-color: #5863F8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-building{
+	font-size: 30px;
+}
+.smallbox p{
+	width: 80%;
+	text-align: center;
+	color: #000000;
+	font-size: 18px;
+	font-family: 'Poppins semibold';
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.smallbox h6{
+	font-size: 14px;
+	color: #B1B1B1;
+	font-family: 'Poppins semibold';
+	max-width: 221px;
+	width: 85%;
+	text-align: center;
+	margin-bottom: 26px;
+}
