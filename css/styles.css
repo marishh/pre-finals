@@ -171,6 +171,8 @@ h4{
 	padding-top: 90px;
 	padding-bottom: 90px;
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 .big-div{
 	max-width: 1089px;
